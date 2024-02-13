@@ -58,4 +58,15 @@ public class HomeController {
 		
 		logger.debug(" 3. mapper 호출 ");
 	}
+	
+	@RequestMapping(value = "/test",method = RequestMethod.GET)
+	public void Test3() {
+		logger.debug(" Test3() 호출 !! ");
+		
+		logger.debug(" 1. 서비스 객체 생성 ");
+		
+		logger.debug(" 2. DAO 객체 생성 ");
+		
+		logger.debug(" 3. mapper 호출 ");
+	}
 }
